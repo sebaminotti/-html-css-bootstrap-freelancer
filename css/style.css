@@ -1,0 +1,118 @@
+.header_top div {
+height: 10vh;
+}
+header {
+width: 100%;
+height: 75vh;
+background: #77dd77;
+}
+P {
+text-align: center;
+}
+
+.sub_menu, .sub_menu_due {
+height: 10vh;
+border: 1px solid white;
+}
+/* fine header top */
+
+.header_center {
+height: 60vh;
+
+}
+.foto {
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 12vh;
+  border-radius: 50%;
+width: 150px;
+height: 150px;
+border: 1px solid red;
+}
+
+.sub_text {
+margin-top: 1vh;
+
+height: 10vh;
+}
+.stella {
+font-size: 30px;
+color: white;
+text-align: center;
+}
+/* fine header  */
+/* inizio main */
+.main {
+margin-top: 5vh;
+height: 220vh;
+}
+.titolo_main {
+border: 1px solid BLACK;
+height: 10vh;
+
+}
+.sub_main {
+background-color: red;
+}
+.sezione_quadrati {
+height: 70vh
+
+}
+.quadrato {
+    margin-top: 5px;
+    margin-left:15px;
+width: 200px;
+height: 200px;
+border: 1px solid red;
+}
+.about {
+margin-top: 70vh;
+height: 80vh;
+background-color:#77dd77;
+}
+
+.sub_about {
+background-color: red;
+}
+.contact {
+  text-align: center;
+margin-top: 5vh;
+border: 1px solid green;
+height: 90vh;
+background-color: orange;
+}
+.form {
+border: 1px solid white;
+height: 50vh;
+}
+.footer {
+margin-top: 45vh;
+height: 25vh;
+background-color:lightgrey;
+}
+.footer_border {
+line-height: 25vh;
+border: 1px solid white;
+height: 25vh;
+}
+
+/* mediaquery */
+@media screen and (max-width:768px) {
+  .foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  }
+  .about {
+  margin-top: 250vh;
+  }
+  .lorem p {
+  font-size: 0.8em;
+  }
+  .quadrato {
+  margin-left: 25px;
+  }
+  .footer {
+  margin-top: 220vh;
+  }
+}
