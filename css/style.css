@@ -1,118 +1,68 @@
-.header_top div {
-height: 10vh;
-}
-header {
-width: 100%;
-height: 75vh;
-background: #77dd77;
-}
-P {
-text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.sub_menu, .sub_menu_due {
-height: 10vh;
-border: 1px solid white;
+/* regole generali per la pagina*/
+.padding_top_standard {
+  padding-top: 30px;
 }
-/* fine header top */
+.padding_top_small {
+padding-top: 8px;
+}
+.padding_bottom_small {
+padding-bottom: 8px;
+}
+.padding_bottom_standard {
+  padding-bottom: 30px;
+}
+.bg_green {
+  background-color: lightgreen;
+}
+.bg_lightblue {
+  background-color: lightblue;
+}
+.bg_blue {
+  background-color: navy;
+}
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+.text_white {
+  color: white;
+}
+/* fine regole generali per la pagina*/
 
-.header_center {
-height: 60vh;
 
+/* header */
+.top_header{
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
 }
-.foto {
-  margin-left: 50%;
-  transform: translate(-50%);
-  margin-top: 12vh;
-  border-radius: 50%;
-width: 150px;
-height: 150px;
-border: 1px solid red;
-}
+/* fine header */
 
-.sub_text {
-margin-top: 1vh;
+/* main */
+.box {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 0;
+  margin: 5px 0;
+}
+/* fine main */
 
-height: 10vh;
+/* footer */
+footer {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
 }
-.stella {
-font-size: 30px;
-color: white;
-text-align: center;
+.upper_footer {
+  height: 80px;
 }
-/* fine header  */
-/* inizio main */
-.main {
-margin-top: 5vh;
-height: 220vh;
+.lower_footer {
+  height: 80px;
 }
-.titolo_main {
-border: 1px solid BLACK;
-height: 10vh;
-
-}
-.sub_main {
-background-color: red;
-}
-.sezione_quadrati {
-height: 70vh
-
-}
-.quadrato {
-    margin-top: 5px;
-    margin-left:15px;
-width: 200px;
-height: 200px;
-border: 1px solid red;
-}
-.about {
-margin-top: 70vh;
-height: 80vh;
-background-color:#77dd77;
-}
-
-.sub_about {
-background-color: red;
-}
-.contact {
-  text-align: center;
-margin-top: 5vh;
-border: 1px solid green;
-height: 90vh;
-background-color: orange;
-}
-.form {
-border: 1px solid white;
-height: 50vh;
-}
-.footer {
-margin-top: 45vh;
-height: 25vh;
-background-color:lightgrey;
-}
-.footer_border {
-line-height: 25vh;
-border: 1px solid white;
-height: 25vh;
-}
-
-/* mediaquery */
-@media screen and (max-width:768px) {
-  .foto {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  }
-  .about {
-  margin-top: 250vh;
-  }
-  .lorem p {
-  font-size: 0.8em;
-  }
-  .quadrato {
-  margin-left: 25px;
-  }
-  .footer {
-  margin-top: 220vh;
-  }
-}
+/* fine footer */
