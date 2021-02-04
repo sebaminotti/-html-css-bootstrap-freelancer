@@ -5,23 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/css/all.min.css">
     <title>Freelancer</title>
   </head>
   <body>
     <!-- header -->
     <header>
       <!-- top header -->
-      <div class="top_header bg_blue text_white">
-        <div class="container">
+      <div class="top_header  text_white">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-xs-6">
-              LOREM IPSUM
+              <h2 id="title">START BOOTSTRAP</h2>
             </div>
             <div class="col-xs-6 text-right">
-              <p class="button_menu visible-xs">BUTTON</p>
-              <nav>
-                NAV
-              </nav>
+              <div class="hamburger hidden-md hidden-lg">
+                <i  class="fas fa-bars"></i>
+              </div>
+                 <div class="menu_nav hidden-xs hidden-sm ">
+                   <ul class="list-unstiled list-inline">
+                     <li><a href="#">PORTFOLIO</a></li>
+                     <li><a href="#">ABOUT</a></li>
+                     <li><a href="#">CONTACT</a></li>
+                   </ul>
+                 </div>
             </div>
           </div>
         </div>
@@ -32,11 +39,11 @@
         <div class="wrapper">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-xs-12 text-center">
-                <p>SPAZIO PER FOTO</p>
-                <h1>START</h1>
-                <p>RIGA E STELLA</p>
-                <p>TESTO</p>
+              <div class="col-xs-12 col-sm-12 text-center">
+                <img src="img/tizio.svg" alt="">
+                <h1 class="quadruple">START BOOSTRAP</h1>
+                  <i class="far fa-star quadruple"></i>
+                <H4>GRAPHIC ARTIST WEB-DESIGNER ILLUSTRATOR</H4>
               </div>
             </div>
           </div>
@@ -51,37 +58,38 @@
         <div class="wrapper">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-xs-12">
-                <h2>PORTFOLIO</h2>
+              <div class="col-xs-12 col-md-12 col-sm-12">
+                <h2 id="PORT">PORTFOLIO</h2>
+                <i class="far fa-star quadruple stella"></i>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="box">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                <img src="img/submarine.png" alt="">
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="box">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  <img src="img/cabin.png" alt="">
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="box">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  <img src="img/safe.png" alt="">
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="box">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                <img src="img/cake.png" alt="">
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="box">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  <img src="img/circus.png" alt="">
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="box">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                <img src="img/game.png" alt="">
                 </div>
               </div>
             </div>
@@ -94,16 +102,20 @@
             <div class="row text-center">
               <div class="col-xs-12">
                 <h2>ABOUT</h2>
-                <p>RIGA E STELLA</p>
+                <i class="far fa-star quadruple stella"></i>
               </div>
             </div>
             <div class="row">
               <div class="col-xs-12 col-md-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
               </div>
               <div class="col-xs-12 col-md-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
               </div>
+              <div class="row text-center"><div class="col-xs-offset-5 col-xs-2">
+             <button id="down" type="button" class="btn btn-success"><i class="fas fa-download"></i> Download</button>
+           </div>
+         </div>
             </div>
           </div>
         </div>
@@ -113,8 +125,20 @@
           <div class="container-fluid">
             <div class="row">
               <h2>CONTACT</h2>
-              <p>RIGA E STELLA</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <i class="far fa-star quadruple stella"></i>
+            <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+
+                  <button id="subm"type="submit" class="btn btn-default">Submit</button>
+                  <textarea id="areatesto" name="name" rows="8" placeholder=" inserisci i tuoi dati : NOME COGNOME INDIRIZZO DATA E LUOGO DI NASCITA" cols="80"></textarea>
+  </form>
             </div>
           </div>
         </div>
@@ -128,19 +152,31 @@
             <div class="row padding_top_small padding_bottom_small bg_lightblue">
               <div class="upper_footer">
                 <div class="col-xs-4">
-                  LOCATION
+                <h2>LOCATION</h2>
+                  <p>2215 John Daniel Drive
+                     Clark, MO 65243</p>
                 </div>
                 <div class="col-xs-4">
-                  AROUND
+                  <h2>AROUND THE WEB</h2>
+                  <div class="SOCIAL ">
+                    <i class="fab fa-facebook-square"></i>
+                  </div>
+                  <div class="SOCIAL ">
+                    <i class="fab fa-twitter-square"></i>
+                  </div>
+                  <div class="SOCIAL ">
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+
                 </div>
                 <div class="col-xs-4">
-                  ABOUT
+                  <h2>ABOUT</h2>
                 </div>
               </div>
             </div>
             <div class="row padding_top_small padding_bottom_small  bg_blue">
               <div class="lower_footer ">
-                <div class="col-xs-12">
+                <div class="col-xs-12 ">
                   COPYRIGHT
                 </div>
               </div>
