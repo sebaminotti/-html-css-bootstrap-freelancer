@@ -1,0 +1,87 @@
+.top_header {
+width: 100%; height:15vh; background-color:#2c3e50;
+}
+#title {
+color: white;
+font-weight: bold;
+}
+.menu_nav li {
+  float: left;
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 15vh;
+}
+.menu_nav ul li a {
+margin-right: 45px;
+color: white;
+text-decoration: none;
+}
+.hamburger {
+font-size:3em; color: white; float: right;margin-right: 2%;
+}
+.jumbo_tron {
+width: 100%;
+height: 60vh;
+background-color:lightgreen;
+}
+.sub_nav img {
+width: 150px;
+}
+.sezione_intermedia {
+margin-top: 2%;
+}
+
+.stella i {
+margin-top: 3%;
+font-size: 3em;
+color: #2d2d2d;
+}
+.box {
+margin-left: 3px;
+margin-top: 3%;
+width: 180px;
+height: 130px;
+border-radius:4px;
+}
+.box img {
+width: 100%;
+border-radius: 5%;
+}
+.about {
+margin-top: 2%;
+width: 100%;
+height: 58vh;
+background-color: lightgreen;
+}
+#ABOUT1 {
+font-weight: bold;
+letter-spacing: 2PX;
+}
+.form {
+height: 50vh;
+
+}
+.COMPILAZIONE {
+
+width: 60%;
+}
+.HR {
+background-color:#2d2d2d;
+}
+footer {
+margin-top: 8vh;
+width: 100%;
+height: 45vh;
+background-color: #2c3e50;
+}
+.social {
+display: inline-block;
+font-size: 3em;
+}
+.text_white {
+color: white;
+}
+#copy {
+margin-top: 20%;
+}
